@@ -5,7 +5,8 @@
 
 import numpy as np
 
-c0 = np.array([[15,0,8,0,3,0,6,0,10,0,7,0],[0,0,0,0,0,0,0,0,0,0,0,0]])
+#below are the 
+c0 = np.array([[15,0,8,0,3,0,6,0,10,0,7,0]]) #Must be a 2D array for "shiftArray" to work
 
 c1 = np.array([[11,11,6,11,0,6,17,7,3,0,6,0],
                [0,14,0,9,0,12,0,4,0,7,15,0]])
