@@ -25,7 +25,7 @@ c4 = np.array([[14,11,14,11,11,14,11,14,11,14,14,11], #! Never shift this circle
                [21,9,9,4,4,6,6,3,3,14,14,21],
                [8,7,8,8,3,4,12,2,5,10,7,16]])
 
-# This shifts the array (I believe counter clockwise) / mimics shifting of the circle basically
+# This shifts the array / mimics shifting of the circle basically (counter clockwise) 
 def shiftArray(array):
     for i in range(0,len(array)):
         temp = np.insert(array[i], 0, array[i][-1])
